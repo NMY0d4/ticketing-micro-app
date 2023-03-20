@@ -8,3 +8,6 @@ skaffold
 
 .pem
 *.pem
+
+# client/.next have to be ignored
+*/.next
