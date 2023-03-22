@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function Banana() {
-  return <div>Banana2</div>;
+  return <h1>Banana</h1>;
 }
