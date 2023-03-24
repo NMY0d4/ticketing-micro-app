@@ -10,7 +10,9 @@ export default function Header({ currentUser }) {
     .map(({ label, href }) => {
       return (
         <li key={href} className='nav-item'>
-          <Link href={href}>{label}</Link>
+          <Link href={href} className='nav-link'>
+            {label}
+          </Link>
         </li>
       );
     });

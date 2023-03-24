@@ -1,4 +1,4 @@
-import { Router } from 'next/router';
+import  Router from 'next/router';
 import { useEffect } from 'react';
 import useRequest from '../../hooks/use-request';
 
@@ -7,9 +7,7 @@ export default function Signout() {
     url: '/api/users/signout',
     method: 'get',
     body: {},
-    onSuccess: () => {
-      Router.push('/');
-    },
+    onSuccess: () => Router.push('/')
   });
 
   useEffect(() => {
