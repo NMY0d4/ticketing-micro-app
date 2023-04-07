@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { OrderStatus } from '@gm_web_tickets/common';
 import { TicketDoc } from './ticket';
+import { OrderStatus } from '@gm_web_tickets/common';
 
 export { OrderStatus };
 
